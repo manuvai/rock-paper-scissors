@@ -1,0 +1,38 @@
+:root {
+    --hand-color: #ffe600;
+    --main-bg-color: #3e3e3e;
+    --main-border-color: #eee;
+}
+
+.hand-displayer {
+    min-height: 50vh !important;
+    background-color: var(--main-bg-color);
+    border-radius: 13px;
+    padding:4px;
+    border: 1px solid var(--main-border-color);
+}
+
+.hand-displayer i,
+.hand-button i {
+    color: var(--hand-color);
+}
+.hand-displayer i {
+    font-size: 52px;
+
+}
+
+.hand-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 45px;
+    width: 45px;
+    border-radius: 45px;
+}
+
+.info-icon {
+    font-size: 20px;
+    color: var(--main-bg-color);
+    float: right;
+    margin: 8px;
+    cursor: help;
+}
